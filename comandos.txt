@@ -1,0 +1,6 @@
+André Luiz H. Kanashiro - Osorio Noite
+=======================================
+git init
+touch index.html
+git status
+git add .

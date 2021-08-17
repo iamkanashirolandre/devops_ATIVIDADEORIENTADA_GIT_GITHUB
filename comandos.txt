@@ -1,10 +1,13 @@
 André Luiz H. Kanashiro - Osorio Noite
 =======================================
+PASSOS DOS EXERCICIOS DE 1 A 5
+=======================================
 $ git init
 $ touch index.html
 
 OBS: O comando touch não é um comando git, mas ele pode ser usado para criar um arquivo.
 
+====================
 $ git status
 $ git add README.md
 $ git remote add origin https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUB.git
@@ -20,6 +23,7 @@ $ touch .gitignore
 
 OBS: O comando touch não é um comando git, mas ele pode ser usado para criar um arquivo.
 
+===============================
 $ mkdir imagens
 $ git status
 $ git add .
@@ -43,6 +47,7 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 === REFAZENDO O COMANDO COM O .gitignore CONFIGURADO COM o minhas_senhas_secretas.txt ADICIONADO 
+
 $ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -56,4 +61,10 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
+===============================
+$ git add .
+
+=======================================
+PASSOS DOS EXERCICIOS DE 6 E 7
+=======================================
 

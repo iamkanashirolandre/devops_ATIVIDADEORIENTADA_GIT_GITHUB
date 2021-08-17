@@ -2,11 +2,23 @@ André Luiz H. Kanashiro - Osorio Noite
 =======================================
 $ git init
 $ touch index.html
+
+OBS: O comando touch não é um comando git, mas ele pode ser usado para criar um arquivo.
+
 $ git status
 $ git add README.md
 $ git remote add origin https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUB.git
 $ git add .
 $ git commit -m "Primeiro commit"
 $ touch README.md
+$ git branch -M main
+$ git push --set-upstream origin main
+$ git add .
+$ git commit -m "Alterando README.md"
+$ git push
+$ touch .gitignore
+
+OBS: O comando touch não é um comando git, mas ele pode ser usado para criar um arquivo.
+
 
 

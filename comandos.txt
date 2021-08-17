@@ -68,3 +68,24 @@ $ git add .
 PASSOS DOS EXERCICIOS DE 6 E 7
 =======================================
 
+$ git clone https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUBparte2.git
+$ cd  devops_ATIVIDADEORIENTADA_GIT_GITHUBparte2/
+$ touch Readme.md
+
+OBS: O comando touch não é um comando git, mas ele pode ser usado para criar um arquivo.
+
+$ echo "# devops_ATIVIDADEORIENTADA_GIT_GITHUBparte2" >> README.md
+$ echo "Escrevendo qualquer coisa para modificar esse arquivo" >> README.md
+$ git status
+$ git add Readme.md
+$ git branch versao01
+$ git checkout versao01
+$ git status
+$ git add Readme.md
+$ git commit  -m "Add e alterado arquivo Readme.md de novo"
+$ git push --set-upstream origin versao01
+
+
+Repositorios gitgub: 
+- https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUB/
+- https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUBparte2/ 

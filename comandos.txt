@@ -1,6 +1,12 @@
 André Luiz H. Kanashiro - Osorio Noite
 =======================================
-git init
-touch index.html
-git status
-git add .
+$ git init
+$ touch index.html
+$ git status
+$ git add README.md
+$ git remote add origin https://github.com/iamkanashirolandre/devops_ATIVIDADEORIENTADA_GIT_GITHUB.git
+$ git add .
+$ git commit -m "Primeiro commit"
+$ touch README.md
+
+
